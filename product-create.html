@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor.css">
+    <!-- <script src="js/vendor-controller.js"></script> -->
+    <script src="js/product-create.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Product Create</h1>
+    <table class="table table-sm">
+        <tr>
+            <td>Vendor:</td>
+            <td>
+                <select id="tvendors">
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>
+                <input id="tid" type="number" value="0" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>Part Nbr:</td>
+            <td>
+                <input id="tpartNbr" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input id="tname" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>
+                <input id="tprice" type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>Unit</td>
+            <td>
+                <input id="tunit" type="text">
+            </td>
+        </tr>
+    </table>
+    <button id="save">Save</button>
+</body>
+</html>
